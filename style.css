@@ -859,3 +859,40 @@ body {
   color: #555;
   line-height: 1.5;
 }
+
+
+
+
+
+
+
+
+
+
+.reviews{
+padding:40px;
+background:#f4f4f4;
+text-align:center;
+}
+
+.reviews input,
+.reviews textarea{
+width:80%;
+padding:10px;
+margin:5px;
+border-radius:5px;
+border:1px solid #ccc;
+}
+
+.reviews button{
+background:#00a8a8;
+color:white;
+padding:10px 20px;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+.reviews button:hover{
+background:#007777;
+}
