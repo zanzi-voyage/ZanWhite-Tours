@@ -754,30 +754,6 @@ body {
 
 
 
-.why-us {
-  padding: 60px 20px;
-  background: #f9f9f9;
-  text-align: center;
-}
-
-.why-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  margin-top: 30px;
-}
-
-.why-card {
-  background: white;
-  padding: 25px;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-  transition: 0.3s;
-}
-
-.why-card:hover {
-  transform: translateY(-5px);
-}
 
 
 
