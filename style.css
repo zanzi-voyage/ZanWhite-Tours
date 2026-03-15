@@ -134,84 +134,12 @@
     cursor: pointer;
 }
 
-/* ABOUT */
-.about {
-    background: var(--light);
-}
 
-.about-content {
-    max-width: 800px;
-    margin: auto;
-    font-size: 17px;
-    line-height: 1.7;
-}
+/
 
-/* BOOKING */
-.booking {
-    background: #e0f7fa;
-}
+.
+    
 
-.booking-actions {
-    margin-top: 25px;
-}
-
-.btn-whatsapp {
-    background: #25D366;
-    padding: 14px 30px;
-    border-radius: 30px;
-    color: white;
-    text-decoration: none;
-    margin: 10px;
-    display: inline-block;
-}
-
-.btn-email {
-    background: #3f51b5;
-    padding: 14px 30px;
-    border-radius: 30px;
-    color: white;
-    text-decoration: none;
-    margin: 10px;
-    display: inline-block;
-}
-
-/* CONTACT */
-.contact {
-    background: var(--dark);
-    color: white;
-}
-
-/* FOOTER */
-.footer {
-    background: black;
-    color: #aaa;
-    padding: 20px;
-}
-
-/* WHATSAPP FLOAT */
-.whatsapp-float {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: #25D366;
-    color: white;
-    font-size: 26px;
-    padding: 15px;
-    border-radius: 50%;
-    text-decoration: none;
-    box-shadow: 0 5px 15px rgba(0,0,0,.4);
-}
-
-/* RESPONSIVE */
-@media (max-width: 768px) {
-    .hero-content h1 {
-        font-size: 34px;
-    }
-
-    .nav-links {
-        display: none;
-    }
-}
 /* GALLERY MODAL */
 .gallery-modal {
     display: none;
@@ -241,45 +169,13 @@
     top: 20px;
     right: 30px;
 }
-.why-us {
-    background: #f1fdfd;
-}
-
-.why-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
-    gap: 20px;
-    font-size: 18px;
-    font-weight: 500;
-}
+.
 
 
 
 
 
-/* ================= NAVBAR ================= */
-.navbar {
-    position: sticky;
-    top: 0;
-    z-index: 999;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 18px 10%;
-    background: rgba(0, 0, 0, 0.85);
-    backdrop-filter: blur(10px);
-}
-
-/* LOGO */
-.nav-logo {
-    font-size: 26px;
-    font-weight: 700;
-    color: #fff;
-    letter-spacing: 1px;
-}
-
-.nav-logo span {
-    color: #00bcd4;
+;
 }
 
 /* LINKS */
@@ -312,21 +208,9 @@
     width: 100%;
 }
 
-/* WHATSAPP BUTTON */
-.nav-btn {
-    background: #25D366;
-    color: #fff;
-    padding: 10px 22px;
-    border-radius: 30px;
-    text-decoration: none;
-    font-weight: 600;
-    box-shadow: 0 5px 15px rgba(0,0,0,.3);
-}
+/
 
-/* MOBILE */
-@media (max-width: 768px) {
-    .nav-links {
-        display: none;
+
     }
 }
 /* POPUP BACKGROUND */
