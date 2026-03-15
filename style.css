@@ -750,6 +750,10 @@ body {
 
 
 
+
+
+
+
 .why-us {
   padding: 60px 20px;
   background: #f9f9f9;
@@ -774,9 +778,6 @@ body {
 .why-card:hover {
   transform: translateY(-5px);
 }
-
-
-
 
 
 
