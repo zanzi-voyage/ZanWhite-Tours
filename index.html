@@ -14,6 +14,26 @@
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
+
+
+<script>
+const buttons = document.querySelectorAll(".accordion-btn");
+
+buttons.forEach(button => {
+  button.addEventListener("click", () => {
+    const content = button.nextElementSibling;
+
+    if(content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+});
+</script>
+
+
+    
 <body>
 
 <!-- ================= HEADER / HERO ================= -->
