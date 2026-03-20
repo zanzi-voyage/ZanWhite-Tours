@@ -950,7 +950,7 @@ nav .nav-links li a {
 .menu-icon .bar {
   width: 25px;
   height: 3px;
-  background-color: white;
+  background-color: #000;
   border-radius: 3px;
 }
 
