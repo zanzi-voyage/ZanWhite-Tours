@@ -945,6 +945,7 @@ nav .nav-links li a {
 
 
 
+
 /* Hamburger icon */
 .menu-icon {
   display: none; /* hide desktop */
@@ -963,13 +964,13 @@ nav .nav-links li a {
 
 /* Animate hamburger to X */
 .menu-icon.open .bar:nth-child(1) {
-  transform: rotate(45deg) translate(5px,5px);
+  transform: rotate(45deg) translate(5px, 5px);
 }
 .menu-icon.open .bar:nth-child(2) {
   opacity: 0;
 }
 .menu-icon.open .bar:nth-child(3) {
-  transform: rotate(-45deg) translate(5px,-5px);
+  transform: rotate(-45deg) translate(5px, -5px);
 }
 
 /* Nav links default */
@@ -1006,9 +1007,6 @@ nav .nav-links li a {
     margin-bottom: 10px;
   }
 }
-
-
-
 
 
 
