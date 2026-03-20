@@ -239,22 +239,15 @@
 
 
   <script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const menuIcon = document.getElementById('menu-icon');
-    const navLinks = document.getElementById('nav-links');
+document.addEventListener('DOMContentLoaded', () => {
+  const menuIcon = document.getElementById('menu-icon');
+  const navLinks = document.getElementById('nav-links');
 
-    menuIcon.addEventListener('click', () => {
-      navLinks.classList.toggle('active'); // show/hide menu
-      menuIcon.classList.toggle('open');   // animate hamburger to X
-    });
-
-    // optional: click link hides menu
-    navLinks.querySelectorAll('a').forEach(link => {
-      link.addEventListener('click', () => {
-        navLinks.classList.remove('active');
-        menuIcon.classList.remove('open');
-      });
-    });
+  menuIcon.addEventListener('click', () => {
+    // Toggle visibility of nav menu
+    navLinks.classList.toggle('active');
+    // Animate hamburger to X
+    menuIcon.classList.toggle('open');
   });
+});
   </script>
-    </body>
