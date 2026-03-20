@@ -240,14 +240,12 @@
 
   <script>
 document.addEventListener('DOMContentLoaded', () => {
-  const menuIcon = document.getElementById('menu-icon');
+  const dotsMenu = document.getElementById('dots-menu');
   const navLinks = document.getElementById('nav-links');
 
-  menuIcon.addEventListener('click', () => {
-    // Toggle visibility of nav menu
-    navLinks.classList.toggle('active');
-    // Animate hamburger to X
-    menuIcon.classList.toggle('open');
+  dotsMenu.addEventListener('click', () => {
+    dotsMenu.classList.toggle('open');  // dots → X
+    navLinks.classList.toggle('active'); // show/hide nav
   });
 });
   </script>
