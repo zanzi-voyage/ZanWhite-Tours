@@ -897,3 +897,86 @@ footer {
   text-align: center;
   margin-top: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* NAVBAR */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: #0077b6;
+  color: white;
+  position: relative;
+}
+
+nav .logo {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+nav .nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+nav .nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* HAMBURGER */
+.menu-icon {
+  display: none; /* only mobile */
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.menu-icon .bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  border-radius: 3px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background: #0077b6;
+    flex-direction: column;
+    width: 150px;
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+  .nav-links li {
+    margin-bottom: 10px;
+  }
+
+  .menu-icon {
+    display: flex;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+}
