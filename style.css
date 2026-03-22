@@ -1013,3 +1013,6 @@ nav .nav-links li a {
 
 
 
+html, body {
+  overflow-x: hidden;
+}
