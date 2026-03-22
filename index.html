@@ -28,21 +28,21 @@
 <nav>
   <div class="logo">ZanWhite<span style="color:#00b4d8">Tours</span></div>
   
-  <div class="menu-icon" id="menu-icon">
-    <div class="bar"></div>
-    <div class="bar"></div>
-    <div class="bar"></div>
-  </div>
-  
-  <ul class="nav-links" id="nav-links">
-    <li><a href="#home">Home</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#tours">Tours</a></li>
-    <li><a href="#booking">Book</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-</nav>
 
+<div id="menu">
+  <button onclick="toggleMenu()">✖</button>
+
+  <a href="#home" onclick="toggleMenu()">Home</a>
+  <a href="#about" onclick="toggleMenu()">About</a>
+  <a href="#tours" onclick="toggleMenu()">Tours</a>
+  <a href="#book" onclick="toggleMenu()">Book</a>
+  <a href="#contact" onclick="toggleMenu()">Contact</a>
+</div>
+
+<button onclick="toggleMenu()">☰</button>
+
+
+    
 
     
 
@@ -242,13 +242,7 @@
 
 
   <script>
-document.addEventListener('DOMContentLoaded', () => {
-  const dotsMenu = document.getElementById('dots-menu');
-  const navLinks = document.getElementById('nav-links');
-
-  dotsMenu.addEventListener('click', () => {
-    dotsMenu.classList.toggle('open');  // dots → X
-    navLinks.classList.toggle('active'); // show/hide nav
-  });
-});
+function toggleMenu() {
+  document.getElementById("menu").classList.toggle("active");
+}
   </script>
