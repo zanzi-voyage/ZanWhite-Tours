@@ -946,16 +946,16 @@ nav .nav-links li a {
 
 
 
-body {
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
   overflow-x: hidden;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
-* {
-  box-sizing: border-box;
+body {
+  width: 100%;
 }
