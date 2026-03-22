@@ -1013,16 +1013,3 @@ nav .nav-links li a {
 
 
 
-#menu {
-  position: fixed;
-  right: -250px;
-  top: 0;
-  width: 250px;
-  height: 100%;
-  background: #0e7490;
-  transition: 0.3s;
-}
-
-#menu.active {
-  right: 0;
-}
