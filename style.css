@@ -528,12 +528,15 @@ body {
   overflow: hidden;
 }
 
+
 .slide-track {
   display: flex;
   gap: 30px;
-  width: calc(350px * 10);
   animation: scroll 25s linear infinite;
 }
+
+
+
 
 @keyframes scroll {
   0% { transform: translateX(0); }
