@@ -135,9 +135,9 @@
 }
 
 
-/
 
-.
+
+
     
 
 /* GALLERY MODAL */
@@ -169,14 +169,14 @@
     top: 20px;
     right: 30px;
 }
-.
 
 
 
 
 
-;
-}
+
+
+
 
 /* LINKS */
 .nav-links {
@@ -208,11 +208,11 @@
     width: 100%;
 }
 
-/
 
 
-    }
-}
+
+    
+
 /* POPUP BACKGROUND */
 .gallery-modal {
     display: none;
@@ -945,17 +945,6 @@ nav .nav-links li a {
 
 
 
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 html, body {
   overflow-x: hidden;
-}
-
-body {
-  width: 100%;
 }
