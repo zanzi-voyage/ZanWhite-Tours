@@ -948,6 +948,39 @@ nav .nav-links li a {
 
 
 
+
+/* ====== FORCE FIX (USIFUTE) ====== */
+
 html, body {
+  width: 100%;
   overflow-x: hidden;
+}
+
+/* Zuia elements zote zisivuke screen */
+* {
+  max-width: 100%;
+}
+
+/* FIX slider kabisa */
+.slider {
+  overflow: hidden;
+  width: 100%;
+}
+
+.slide-track {
+  display: flex;
+  gap: 20px;
+  animation: none; /* ZIMA animation kwanza */
+}
+
+/* Hakikisha hakuna kitu kinavuta kushoto/kulia */
+.hero,
+.section,
+.navbar,
+.gallery-grid,
+.gallery-box {
+  width: 100%;
+  max-width: 100%;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
